@@ -3,9 +3,10 @@
 # When this is instatiated, it should set its temperature
 # and setup a spot inside of itself to store the ingredients.
 
+require 'pry'
 class Glass
 
-  LUKE_WARM = 37
+  LUKE_WARM = 80
 
   def initialize
     @inside      = Location.new

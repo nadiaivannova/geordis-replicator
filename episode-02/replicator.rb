@@ -1,8 +1,8 @@
+require 'pry'
 class Replicator
 
   # When the Enterprise calls Replicator.new, this method executes.
   def initialize(enterprise)
-
     # Setup an accessor so we can access other parts of the Enterprise from this instance.
     @enterprise = enterprise
 
@@ -40,7 +40,6 @@ class Replicator
   # and then manually execute each method to ensure
   # it returns what's expect.
   def replicate(recipe)
-
     # Setup an instance variable for the recipe
     # so that other methods can see what the recipe is
     @recipe = recipe
