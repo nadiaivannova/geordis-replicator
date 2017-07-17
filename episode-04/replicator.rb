@@ -1,3 +1,4 @@
+require 'pry'
 class Replicator
 
   # When the Enterprise calls Replicator.new, this method executes.
@@ -163,7 +164,7 @@ class Replicator
       end
 
       number_of_adjustments += 1
-
+binding.pry
     end
 
     # Transport glass from reactor back to inside the replicator.

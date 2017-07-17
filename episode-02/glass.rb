@@ -6,7 +6,7 @@
 require 'pry'
 class Glass
 
-  LUKE_WARM = 80
+  LUKE_WARM = 37
 
   def initialize
     @inside      = Location.new
